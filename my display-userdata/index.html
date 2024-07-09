@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="styles.css">
+   
+    <title>Display user-dat</title>
+</head>
+<body>
+   <div class="wrapper">
+    <h3 id="loginSuccessAlert" class="alert" style=" color: rgb(38, 115, 175); display: flex; justify-content: center;" ></h3>
+    
+ <div class="container">
+  <form action="" id="form">
+    <h2>Omolola <i class="fas fa-heart"></i></h2>
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name">
+    </div>
+    <div>
+      <label for="surname">Surname:</label>
+      <input type="text" id="surname">
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" >
+    </div>
+    <div>
+      <label for="password">Password:</label>
+      <input type="password" id="password" >
+    </div>
+    <div>
+      <label for="date">Date:</label>
+      <input type="date" id="date" >
+    </div>
+    <div class="button">
+      <button id="submit">Submit <i class="fas fa-heart"></i></button>
+    </div>
+  </form>
+ </div>
+  <table class="table table-striped">
+    <h2>Display user data</h2>
+  <thead>
+    <tr>
+      <th> Name</th>
+      <th>Surname</th>
+      <th>Email</th>
+      <th>Password</th>
+      <th>Date</th>
+      <th>Edit</th>
+      <th>Delete</th>
+    </tr>
+  </thead>
+  <tbody id="displaydata">
+  </tbody>
+</table> 
+</div>
+ <script src="form2.js"></script>
+
+</body>
+</html>
